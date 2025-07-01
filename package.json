@@ -1,0 +1,27 @@
+{
+  "name": "medium_express_commander",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "medium-build-middleware": "./bin/build-middleware.js"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "cli",
+    "generator"
+  ],
+  "author": "youssef hussein",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "fs-extra": "^11.3.0"
+  },
+  "devDependencies": {
+    "commander": "^14.0.0"
+  }
+}
